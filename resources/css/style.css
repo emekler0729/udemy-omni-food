@@ -28,7 +28,14 @@ header {
 }
 
 h1 {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
 }
 
 .hero-text-box {
@@ -38,4 +45,33 @@ h1 {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.btn, .btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #e67e22;
+    -webkit-transition: background 0.2s, color 0.2s, border 0.2s;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    margin-right: 15px;
+}
+
+
+.btn-full, .btn-full:visited {
+    background: #e67e22;
+    color: #fff;
+}
+
+.btn-ghost, .btn-ghost:visited {
+    color: #e67e22;
+}
+
+
+.btn:hover, .btn:active {
+    background: #cf6d17;
+    border: 1px solid #cf6d17;
+    color: #fff;
 }
