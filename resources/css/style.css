@@ -353,3 +353,32 @@ header {
 .city-feature {
     margin-bottom: 5px;
 }
+
+/* --------------------------------------------------- */
+
+/* TESTIMONIAL */
+
+/* --------------------------------------------------- */
+
+.section-testimonial {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.testimonial-text:before {
+    content: "T"
+}
+
+.testimonial-customer img {
+    float: left;
+    border-radius: 50%;
+    height: 50px;
+}
+
+.testimonial-customer div {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
