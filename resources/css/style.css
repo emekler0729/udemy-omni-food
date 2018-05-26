@@ -179,6 +179,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -356,7 +357,7 @@ header {
 
 /* --------------------------------------------------- */
 
-/* TESTIMONIAL */
+/* TESTIMONIALS */
 
 /* --------------------------------------------------- */
 
@@ -364,21 +365,36 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: white;
 }
 
-.testimonial-text:before {
-    content: "T"
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
 }
 
-.testimonial-customer img {
-    float: left;
+blockquote:before {
+    content: '\201C';
+    font-size: 5rem;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 25px;
+}
+
+cite img {
+    height: 45px;
     border-radius: 50%;
-    height: 50px;
-}
-
-.testimonial-customer div {
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
