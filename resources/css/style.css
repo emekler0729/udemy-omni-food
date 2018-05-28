@@ -270,6 +270,21 @@ header {
     margin-top: 18px;
 }
 
+/* Mobile Navigation */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+    border-bottom-color: transparent;
+}
+
+.mobile-nav-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
 /* --------------------------------------------------- */
 
 /* FEATURES */
