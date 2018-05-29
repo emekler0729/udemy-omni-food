@@ -66,6 +66,7 @@ $(document).ready(function() {
     });
 
     /* Mobile navigation */
+    //    @TODO - This code breaks when switching across 900px breakpoint
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
